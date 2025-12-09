@@ -23,7 +23,7 @@ else
 	warn("Couldn't fetch Roblox's icons. Are HTTP requests enabled for this game?")
 end
 
-local iconSet: {[string]: string} = require(script.Parent.IconSet)
+local iconSet: {[string]: string} = require(script.Parent.IconSet) -- This is old, I forgot to remove this line from the code but I'm leaving it here to make it accurate to the scripts in the .rbxmx file
 local interface = script.Parent.Interface
 
 local iconFormat = `<font family="rbxasset://LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json">%s</font>`
