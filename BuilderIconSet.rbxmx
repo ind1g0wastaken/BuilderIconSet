@@ -1,0 +1,1588 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Folder" referent="RBX25200E9EBF6D45D98116DE115674DBC9">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<string name="Name">BuilderIconSet</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="ModuleScript" referent="RBX6D5A3DBFA44B400BB9B1973661B0CC0C">
+			<Properties>
+				<Content name="LinkedSource"><null></null></Content>
+				<ProtectedString name="Source"><![CDATA[return {
+	["0"] = "0",
+	["1"] = "1",
+	["2"] = "2",
+	["3"] = "3",
+	["3d_cube_arrow_left"] = "3d-cube-arrow-left",
+	["4"] = "4",
+	["5"] = "5",
+	["_"] = "-",
+	["a"] = "a",
+	["amazon"] = "amazon",
+	["arm_left"] = "arm-left",
+	["arm_right"] = "arm-right",
+	["arrow_curl_to_left"] = "arrow-curl-to-left",
+	["arrow_down_to_line"] = "arrow-down-to-line",
+	["arrow_large_down"] = "arrow-large-down",
+	["arrow_large_left"] = "arrow-large-left",
+	["arrow_large_right"] = "arrow-large-right",
+	["arrow_large_up"] = "arrow-large-up",
+	["arrow_right_from_portrait_rectangle"] = "arrow-right-from-portrait-rectangle",
+	["arrow_right_to_portrait_rectangle"] = "arrow-right-to-portrait-rectangle",
+	["arrow_rotate_down_dashed"] = "arrow-rotate-down-dashed",
+	["arrow_rotate_right"] = "arrow-rotate-right",
+	["arrow_rotate_right_dashed"] = "arrow-rotate-right-dashed",
+	["arrow_small_down"] = "arrow-small-down",
+	["arrow_small_left"] = "arrow-small-left",
+	["arrow_small_right"] = "arrow-small-right",
+	["arrow_small_up"] = "arrow-small-up",
+	["arrow_spin_clockwise"] = "arrow-spin-clockwise",
+	["arrow_spin_clockwise_10"] = "arrow-spin-clockwise-10",
+	["arrow_spin_clockwise_15"] = "arrow-spin-clockwise-15",
+	["arrow_spin_clockwise_30"] = "arrow-spin-clockwise-30",
+	["arrow_spin_counter_clockwise_10"] = "arrow-spin-counter-clockwise-10",
+	["arrow_spin_counter_clockwise_15"] = "arrow-spin-counter-clockwise-15",
+	["arrow_spin_counter_clockwise_30"] = "arrow-spin-counter-clockwise-30",
+	["arrow_thick_to_left"] = "arrow-thick-to-left",
+	["arrow_thick_to_right"] = "arrow-thick-to-right",
+	["arrow_up_from_landscape_rectangle"] = "arrow-up-from-landscape-rectangle",
+	["arrow_up_right_from_square"] = "arrow-up-right-from-square",
+	["arrow_wide_short_down"] = "arrow-wide-short-down",
+	["arrow_wide_short_left"] = "arrow-wide-short-left",
+	["arrow_wide_short_right"] = "arrow-wide-short-right",
+	["arrow_wide_short_up"] = "arrow-wide-short-up",
+	["arrows_small_directional"] = "arrows-small-directional",
+	["audio_wave_dotted_line"] = "audio-wave-dotted-line",
+	["b"] = "b",
+	["backpack"] = "backpack",
+	["beard"] = "beard",
+	["bell"] = "bell",
+	["bell_clock"] = "bell-clock",
+	["bell_plus"] = "bell-plus",
+	["bell_slash"] = "bell-slash",
+	["belt"] = "belt",
+	["book_closed"] = "book-closed",
+	["bookmark"] = "bookmark",
+	["bow_tie"] = "bow-tie",
+	["building_store"] = "building-store",
+	["bullet_flying"] = "bullet-flying",
+	["butterfly_wings"] = "butterfly-wings",
+	["c"] = "c",
+	["calendar"] = "calendar",
+	["calendar_plus"] = "calendar-plus",
+	["calendar_star"] = "calendar-star",
+	["camera_small"] = "camera-small",
+	["chain_link"] = "chain-link",
+	["chart_four_vertical_bars"] = "chart-four-vertical-bars",
+	["chart_line"] = "chart-line",
+	["chart_pie"] = "chart-pie",
+	["chart_scatter_plot"] = "chart-scatter-plot",
+	["chart_three_vertical_bars"] = "chart-three-vertical-bars",
+	["check"] = "check",
+	["check_large"] = "check-large",
+	["check_small"] = "check-small",
+	["chevron_large_down"] = "chevron-large-down",
+	["chevron_large_left"] = "chevron-large-left",
+	["chevron_large_right"] = "chevron-large-right",
+	["chevron_large_up"] = "chevron-large-up",
+	["chevron_small_down"] = "chevron-small-down",
+	["chevron_small_left"] = "chevron-small-left",
+	["chevron_small_right"] = "chevron-small-right",
+	["chevron_small_up"] = "chevron-small-up",
+	["circle_check"] = "circle-check",
+	["circle_i"] = "circle-i",
+	["circle_minus"] = "circle-minus",
+	["circle_person"] = "circle-person",
+	["circle_play"] = "circle-play",
+	["circle_plus"] = "circle-plus",
+	["circle_question"] = "circle-question",
+	["circle_slash"] = "circle-slash",
+	["circle_star"] = "circle-star",
+	["circle_three_dots_horizontal"] = "circle-three-dots-horizontal",
+	["circle_three_dots_vertical"] = "circle-three-dots-vertical",
+	["circle_x"] = "circle-x",
+	["clock"] = "clock",
+	["clock_spin_reverse"] = "clock-spin-reverse",
+	["clock_spin_reverse_dashed"] = "clock-spin-reverse-dashed",
+	["clothes_hanger"] = "clothes-hanger",
+	["cloud"] = "cloud",
+	["cloud_arrow_down"] = "cloud-arrow-down",
+	["code"] = "code",
+	["compact_makeup_brush"] = "compact-makeup-brush",
+	["compass"] = "compass",
+	["crop"] = "crop",
+	["crosshairs"] = "crosshairs",
+	["crosshairs_slash"] = "crosshairs-slash",
+	["cube_vertexes"] = "cube-vertexes",
+	["curved_rectangle_megaphone"] = "curved-rectangle-megaphone",
+	["d"] = "d",
+	["diamond_simplified"] = "diamond-simplified",
+	["discord"] = "discord",
+	["disguise_nose_glasses"] = "disguise-nose-glasses",
+	["document_circle_slash"] = "document-circle-slash",
+	["document_list_heart"] = "document-list-heart",
+	["door_open_arrow_to_bottom_right"] = "door-open-arrow-to-bottom-right",
+	["dress"] = "dress",
+	["dual_arrows_horizontal"] = "dual-arrows-horizontal",
+	["dual_arrows_to_corners"] = "dual-arrows-to-corners",
+	["dual_arrows_vertical"] = "dual-arrows-vertical",
+	["e"] = "e",
+	["envelope"] = "envelope",
+	["eye"] = "eye",
+	["eye_slash"] = "eye-slash",
+	["eye_with_eyeliner"] = "eye-with-eyeliner",
+	["eyebrows"] = "eyebrows",
+	["eyelashes"] = "eyelashes",
+	["f"] = "f",
+	["face_winking"] = "face-winking",
+	["facebook"] = "facebook",
+	["file_box"] = "file-box",
+	["fingerprint"] = "fingerprint",
+	["flag"] = "flag",
+	["flame"] = "flame",
+	["fountain_pen_nib"] = "fountain-pen-nib",
+	["frame_bubble_slash"] = "frame-bubble-slash",
+	["frame_bubble_soundwave"] = "frame-bubble-soundwave",
+	["frame_camera"] = "frame-camera",
+	["frame_camera_center"] = "frame-camera-center",
+	["frame_collapsed"] = "frame-collapsed",
+	["frame_corners"] = "frame-corners",
+	["frame_expanded"] = "frame-expanded",
+	["frame_face"] = "frame-face",
+	["frame_person_torso"] = "frame-person-torso",
+	["frame_record"] = "frame-record",
+	["frame_single_bar_horizontal"] = "frame-single-bar-horizontal",
+	["frame_soundwave"] = "frame-soundwave",
+	["frame_video_camera"] = "frame-video-camera",
+	["g"] = "g",
+	["gear"] = "gear",
+	["generic_dpad"] = "generic-dpad",
+	["gift_box"] = "gift-box",
+	["gift_card"] = "gift-card",
+	["glasses"] = "glasses",
+	["globe_detailed"] = "globe-detailed",
+	["globe_simplified"] = "globe-simplified",
+	["globe_simplipfied_speech_bubble"] = "globe-simplipfied-speech-bubble",
+	["grid"] = "grid",
+	["guilded"] = "guilded",
+	["h"] = "h",
+	["hammer_code"] = "hammer-code",
+	["hand_curved_arrow_left"] = "hand-curved-arrow-left",
+	["hand_dual_arrows"] = "hand-dual-arrows",
+	["hand_ellipse"] = "hand-ellipse",
+	["hand_half_ellipse"] = "hand-half-ellipse",
+	["hand_two_arrows_horizontal"] = "hand-two-arrows-horizontal",
+	["hashtag"] = "hashtag",
+	["hat_fedora"] = "hat-fedora",
+	["hat_toque"] = "hat-toque",
+	["head_blank"] = "head-blank",
+	["head_blush"] = "head-blush",
+	["head_female"] = "head-female",
+	["head_freckles"] = "head-freckles",
+	["head_lips"] = "head-lips",
+	["head_male"] = "head-male",
+	["headphones"] = "headphones",
+	["headphones_arrow_up"] = "headphones-arrow-up",
+	["headphones_arrow_up_lock"] = "headphones-arrow-up-lock",
+	["headphones_slash"] = "headphones-slash",
+	["headphones_x"] = "headphones-x",
+	["headphones_x_lock"] = "headphones-x-lock",
+	["heart"] = "heart",
+	["house"] = "house",
+	["i"] = "i",
+	["image"] = "image",
+	["image_stacked"] = "image-stacked",
+	["instagram"] = "instagram",
+	["j"] = "j",
+	["jacket"] = "jacket",
+	["k"] = "k",
+	["key"] = "key",
+	["key_alt"] = "key-alt",
+	["key_apostrophe"] = "key-apostrophe",
+	["key_arrow_down"] = "key-arrow-down",
+	["key_arrow_right"] = "key-arrow-right",
+	["key_arrow_up"] = "key-arrow-up",
+	["key_asterisk"] = "key-asterisk",
+	["key_backspace"] = "key-backspace",
+	["key_caps_lock"] = "key-caps-lock",
+	["key_caret"] = "key-caret",
+	["key_comma"] = "key-comma",
+	["key_command"] = "key-command",
+	["key_control"] = "key-control",
+	["key_grave_accent"] = "key-grave-accent",
+	["key_period"] = "key-period",
+	["key_return"] = "key-return",
+	["key_shift"] = "key-shift",
+	["key_space"] = "key-space",
+	["key_tab"] = "key-tab",
+	["l"] = "l",
+	["language_characters"] = "language-characters",
+	["leg_left"] = "leg-left",
+	["leg_right"] = "leg-right",
+	["lightning_bolt"] = "lightning-bolt",
+	["lips"] = "lips",
+	["lipstick"] = "lipstick",
+	["list_bulleted"] = "list-bulleted",
+	["location_pin"] = "location-pin",
+	["location_pin_map"] = "location-pin-map",
+	["lock_closed"] = "lock-closed",
+	["lollipop"] = "lollipop",
+	["m"] = "m",
+	["magnifying_glass"] = "magnifying-glass",
+	["magnifying_glass_minus"] = "magnifying-glass-minus",
+	["magnifying_glass_plus"] = "magnifying-glass-plus",
+	["mascara"] = "mascara",
+	["megaphone"] = "megaphone",
+	["memory_card"] = "memory-card",
+	["messenger"] = "messenger",
+	["microphone"] = "microphone",
+	["microphone_slash"] = "microphone-slash",
+	["microphone_text_box"] = "microphone-text-box",
+	["microphone_triangle_exclamation"] = "microphone-triangle-exclamation",
+	["minus"] = "minus",
+	["minus_small"] = "minus-small",
+	["mirror_standing"] = "mirror-standing",
+	["moments"] = "moments",
+	["moon"] = "moon",
+	["mouse_button_left"] = "mouse-button-left",
+	["mouse_button_right"] = "mouse-button-right",
+	["mouse_scrollwheel"] = "mouse-scrollwheel",
+	["music_note"] = "music-note",
+	["n"] = "n",
+	["necklace"] = "necklace",
+	["nine_dots_grid"] = "nine-dots-grid",
+	["ninja"] = "ninja",
+	["nose"] = "nose",
+	["o"] = "o",
+	["p"] = "p",
+	["page"] = "page",
+	["pants"] = "pants",
+	["pants_2d_text"] = "pants-2d-text",
+	["paper_airplane"] = "paper-airplane",
+	["parrot"] = "parrot",
+	["pause_large"] = "pause-large",
+	["pause_small"] = "pause-small",
+	["pencil"] = "pencil",
+	["pencil_square"] = "pencil-square",
+	["person"] = "person",
+	["person_arrow_from_bottom_right"] = "person-arrow-from-bottom-right",
+	["person_check"] = "person-check",
+	["person_circle_slash"] = "person-circle-slash",
+	["person_clock"] = "person-clock",
+	["person_graduate"] = "person-graduate",
+	["person_magnifying_glass"] = "person-magnifying-glass",
+	["person_photo_camera"] = "person-photo-camera",
+	["person_play"] = "person-play",
+	["person_play_clock"] = "person-play-clock",
+	["person_plus"] = "person-plus",
+	["person_standing_arrow_reverse"] = "person-standing-arrow-reverse",
+	["person_standing_dual_arrows_vertical"] = "person-standing-dual-arrows-vertical",
+	["person_standing_gear"] = "person-standing-gear",
+	["person_trash_can"] = "person-trash-can",
+	["phone"] = "phone",
+	["phone_down"] = "phone-down",
+	["phone_plus"] = "phone-plus",
+	["phone_volume"] = "phone-volume",
+	["phone_x"] = "phone-x",
+	["photo_camera"] = "photo-camera",
+	["photo_camera_face"] = "photo-camera-face",
+	["photo_camera_slash"] = "photo-camera-slash",
+	["picture_in_picture"] = "picture-in-picture",
+	["pig"] = "pig",
+	["pin"] = "pin",
+	["pin_slash"] = "pin-slash",
+	["play_large"] = "play-large",
+	["play_small"] = "play-small",
+	["plus_large"] = "plus-large",
+	["plus_small"] = "plus-small",
+	["premium"] = "premium",
+	["ps4_options"] = "ps4-options",
+	["ps4_share"] = "ps4-share",
+	["ps4_touchpad"] = "ps4-touchpad",
+	["ps5_options"] = "ps5-options",
+	["ps5_share"] = "ps5-share",
+	["ps5_touchpad"] = "ps5-touchpad",
+	["ps_circle"] = "ps-circle",
+	["ps_dpad_down"] = "ps-dpad-down",
+	["ps_dpad_left"] = "ps-dpad-left",
+	["ps_dpad_right"] = "ps-dpad-right",
+	["ps_dpad_up"] = "ps-dpad-up",
+	["ps_l1"] = "ps-l1",
+	["ps_l2"] = "ps-l2",
+	["ps_l3"] = "ps-l3",
+	["ps_r1"] = "ps-r1",
+	["ps_r2"] = "ps-r2",
+	["ps_r3"] = "ps-r3",
+	["ps_square"] = "ps-square",
+	["ps_stick_left"] = "ps-stick-left",
+	["ps_stick_right"] = "ps-stick-right",
+	["ps_triagle"] = "ps-triagle",
+	["ps_x"] = "ps-x",
+	["pumpkin"] = "pumpkin",
+	["purse"] = "purse",
+	["q"] = "q",
+	["r"] = "r",
+	["rectangle_list"] = "rectangle-list",
+	["rectangle_numbers_counting"] = "rectangle-numbers-counting",
+	["robux"] = "robux",
+	["rosette_seven_point"] = "rosette-seven-point",
+	["rosette_ten_point"] = "rosette-ten-point",
+	["s"] = "s",
+	["seven_point_rosette"] = "seven-point-rosette",
+	["shield_check"] = "shield-check",
+	["shield_lock"] = "shield-lock",
+	["shirt"] = "shirt",
+	["shirt_2d_text"] = "shirt-2d-text",
+	["shirt_pants"] = "shirt-pants",
+	["shoe_left"] = "shoe-left",
+	["shoe_right"] = "shoe-right",
+	["shopping_basket"] = "shopping-basket",
+	["shopping_basket_check"] = "shopping-basket-check",
+	["shopping_cart"] = "shopping-cart",
+	["shorts"] = "shorts",
+	["sidebar"] = "sidebar",
+	["signal_exclamation"] = "signal-exclamation",
+	["six_dots_two_column_grid"] = "six-dots-two-column-grid",
+	["skip_end_large"] = "skip-end-large",
+	["skip_end_small"] = "skip-end-small",
+	["skip_next_large"] = "skip-next-large",
+	["skip_next_small"] = "skip-next-small",
+	["skip_previous_large"] = "skip-previous-large",
+	["skip_previous_small"] = "skip-previous-small",
+	["skip_start_large"] = "skip-start-large",
+	["skip_start_small"] = "skip-start-small",
+	["smartphone_portrait"] = "smartphone-portrait",
+	["speaker"] = "speaker",
+	["speaker_slash"] = "speaker-slash",
+	["speaker_triangle_exclamation"] = "speaker-triangle-exclamation",
+	["speaker_x"] = "speaker-x",
+	["speech_bubble_align_center"] = "speech-bubble-align-center",
+	["speech_bubble_align_left"] = "speech-bubble-align-left",
+	["speech_bubble_exclamation"] = "speech-bubble-exclamation",
+	["speech_bubble_round"] = "speech-bubble-round",
+	["square_bone"] = "square-bone",
+	["square_books"] = "square-books",
+	["square_check"] = "square-check",
+	["square_code"] = "square-code",
+	["square_dashed_person_standing"] = "square-dashed-person-standing",
+	["square_dual_arrows_horizontal"] = "square-dual-arrows-horizontal",
+	["square_dual_arrows_to_corner"] = "square-dual-arrows-to-corner",
+	["square_face_sound"] = "square-face-sound",
+	["square_face_waving_hand"] = "square-face-waving-hand",
+	["square_face_winking"] = "square-face-winking",
+	["square_minus"] = "square-minus",
+	["square_person"] = "square-person",
+	["squares_grid_plus"] = "squares-grid-plus",
+	["squares_grid_qr"] = "squares-grid-qr",
+	["stacked_squares_arrow_down_left"] = "stacked-squares-arrow-down-left",
+	["stacked_squares_arrow_up_right"] = "stacked-squares-arrow-up-right",
+	["stacked_squares_plus"] = "stacked-squares-plus",
+	["star"] = "star",
+	["stop_large"] = "stop-large",
+	["stop_small"] = "stop-small",
+	["studio"] = "studio",
+	["sun"] = "sun",
+	["sweater"] = "sweater",
+	["sword"] = "sword",
+	["t"] = "t",
+	["tag_sparkle"] = "tag-sparkle",
+	["text_box_microphone"] = "text-box-microphone",
+	["three_bars_horizontal"] = "three-bars-horizontal",
+	["three_bars_horizontal_chevron_left"] = "three-bars-horizontal-chevron-left",
+	["three_bars_horizontal_narrowing"] = "three-bars-horizontal-narrowing",
+	["three_bars_horizontal_triangles_vertical"] = "three-bars-horizontal-triangles-vertical",
+	["three_bars_vertical_triangles_horizontal"] = "three-bars-vertical-triangles-horizontal",
+	["three_chevrons_enlarging_down"] = "three-chevrons-enlarging-down",
+	["three_chevrons_enlarging_up"] = "three-chevrons-enlarging-up",
+	["three_dots_horizontal"] = "three-dots-horizontal",
+	["three_dots_vertical"] = "three-dots-vertical",
+	["three_people"] = "three-people",
+	["three_sliders_horizontal"] = "three-sliders-horizontal",
+	["three_stacked_squares_tilted"] = "three-stacked-squares-tilted",
+	["thumb_down"] = "thumb-down",
+	["thumb_up"] = "thumb-up",
+	["tilt"] = "tilt",
+	["torso"] = "torso",
+	["trash_can"] = "trash-can",
+	["triangle_exclamation"] = "triangle-exclamation",
+	["trophy"] = "trophy",
+	["tshirt"] = "tshirt",
+	["tshirt_2d_text"] = "tshirt-2d-text",
+	["twitch"] = "twitch",
+	["twitter"] = "twitter",
+	["two_arrows_down_and_up"] = "two-arrows-down-and-up",
+	["two_arrows_from_center"] = "two-arrows-from-center",
+	["two_arrows_loop_clockwise"] = "two-arrows-loop-clockwise",
+	["two_arrows_loop_clockwise_1"] = "two-arrows-loop-clockwise-1",
+	["two_arrows_loop_clockwise_infinity"] = "two-arrows-loop-clockwise-infinity",
+	["two_arrows_spin_clockwise"] = "two-arrows-spin-clockwise",
+	["two_arrows_spin_clockwise_plus"] = "two-arrows-spin-clockwise-plus",
+	["two_arrows_switch_right"] = "two-arrows-switch-right",
+	["two_arrows_to_center"] = "two-arrows-to-center",
+	["two_location_pins_connecting_arrow"] = "two-location-pins-connecting-arrow",
+	["two_makeup_brushes"] = "two-makeup-brushes",
+	["two_people"] = "two-people",
+	["two_people_speech_bubble"] = "two-people-speech-bubble",
+	["two_stacked_squares"] = "two-stacked-squares",
+	["two_switches_horizontal"] = "two-switches-horizontal",
+	["u"] = "u",
+	["v"] = "v",
+	["verified_backplate"] = "verified-backplate",
+	["verified_check"] = "verified-check",
+	["verified_mono"] = "verified-mono",
+	["video_camera"] = "video-camera",
+	["video_camera_arrow_to_bottom_left"] = "video-camera-arrow-to-bottom-left",
+	["video_camera_arrow_to_top_right"] = "video-camera-arrow-to-top-right",
+	["video_camera_slash"] = "video-camera-slash",
+	["video_camera_triangle_exclamation"] = "video-camera-triangle-exclamation",
+	["video_camera_x"] = "video-camera-x",
+	["w"] = "w",
+	["wallet"] = "wallet",
+	["whatsapp"] = "whatsapp",
+	["x"] = "x",
+	["x_small"] = "x-small",
+	["xbox_a"] = "xbox-a",
+	["xbox_a_pressed"] = "xbox-a-pressed",
+	["xbox_a_unpressed"] = "xbox-a-unpressed",
+	["xbox_b"] = "xbox-b",
+	["xbox_dpad"] = "xbox-dpad",
+	["xbox_dpad_down"] = "xbox-dpad-down",
+	["xbox_dpad_left"] = "xbox-dpad-left",
+	["xbox_dpad_right"] = "xbox-dpad-right",
+	["xbox_dpad_up"] = "xbox-dpad-up",
+	["xbox_lb"] = "xbox-lb",
+	["xbox_lt"] = "xbox-lt",
+	["xbox_menu"] = "xbox-menu",
+	["xbox_rb"] = "xbox-rb",
+	["xbox_rt"] = "xbox-rt",
+	["xbox_stick_left"] = "xbox-stick-left",
+	["xbox_stick_left_directional"] = "xbox-stick-left-directional",
+	["xbox_stick_left_horizontal"] = "xbox-stick-left-horizontal",
+	["xbox_stick_left_vertical"] = "xbox-stick-left-vertical",
+	["xbox_stick_right"] = "xbox-stick-right",
+	["xbox_stick_right_directional"] = "xbox-stick-right-directional",
+	["xbox_stick_right_horizontal"] = "xbox-stick-right-horizontal",
+	["xbox_stick_right_vertical"] = "xbox-stick-right-vertical",
+	["xbox_view"] = "xbox-view",
+	["xbox_x"] = "xbox-x",
+	["xbox_y"] = "xbox-y",
+	["xr_headset"] = "xr-headset",
+	["y"] = "y",
+	["youtube"] = "youtube",
+	["z"] = "z"
+}]]></ProtectedString>
+				<string name="ScriptGuid">{14EE5330-B1C1-47DC-AAD8-09EADDEA041D}</string>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">IconSet</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="ScreenGui" referent="RBXD95A15EB9060415E8D653C9423C6A708">
+			<Properties>
+				<bool name="ClipToDeviceSafeArea">true</bool>
+				<int name="DisplayOrder">0</int>
+				<token name="SafeAreaCompatibility">1</token>
+				<token name="ScreenInsets">2</token>
+				<bool name="Enabled">true</bool>
+				<bool name="ResetOnSpawn">true</bool>
+				<token name="ZIndexBehavior">1</token>
+				<bool name="AutoLocalize">true</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<token name="SelectionBehaviorDown">0</token>
+				<token name="SelectionBehaviorLeft">0</token>
+				<token name="SelectionBehaviorRight">0</token>
+				<token name="SelectionBehaviorUp">0</token>
+				<bool name="SelectionGroup">false</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Interface</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Frame" referent="RBXDF8BEB8B76A34EB28EE48FB98427804A">
+				<Properties>
+					<token name="Style">0</token>
+					<bool name="Active">false</bool>
+					<Vector2 name="AnchorPoint">
+						<X>0</X>
+						<Y>1</Y>
+					</Vector2>
+					<token name="AutomaticSize">0</token>
+					<Color3 name="BackgroundColor3">
+						<R>0.0901960805</R>
+						<G>0.101960793</G>
+						<B>0.121568635</B>
+					</Color3>
+					<float name="BackgroundTransparency">0</float>
+					<Color3 name="BorderColor3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<token name="BorderMode">0</token>
+					<int name="BorderSizePixel">0</int>
+					<bool name="ClipsDescendants">false</bool>
+					<bool name="Draggable">false</bool>
+					<bool name="Interactable">true</bool>
+					<int name="LayoutOrder">0</int>
+					<Ref name="NextSelectionDown">null</Ref>
+					<Ref name="NextSelectionLeft">null</Ref>
+					<Ref name="NextSelectionRight">null</Ref>
+					<Ref name="NextSelectionUp">null</Ref>
+					<UDim2 name="Position">
+						<XS>0</XS>
+						<XO>0</XO>
+						<YS>1</YS>
+						<YO>0</YO>
+					</UDim2>
+					<float name="Rotation">0</float>
+					<bool name="Selectable">false</bool>
+					<Ref name="SelectionImageObject">null</Ref>
+					<int name="SelectionOrder">0</int>
+					<UDim2 name="Size">
+						<XS>0.255727351</XS>
+						<XO>0</XO>
+						<YS>0.900247633</YS>
+						<YO>0</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+					<bool name="AutoLocalize">true</bool>
+					<Ref name="RootLocalizationTable">null</Ref>
+					<token name="SelectionBehaviorDown">0</token>
+					<token name="SelectionBehaviorLeft">0</token>
+					<token name="SelectionBehaviorRight">0</token>
+					<token name="SelectionBehaviorUp">0</token>
+					<bool name="SelectionGroup">false</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<string name="Name">Container</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="Frame" referent="RBXE90A53C1794D4E6BB13DA7920461E1D1">
+					<Properties>
+						<token name="Style">0</token>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">0.899999976</float>
+						<Color3 name="BorderColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">0</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<bool name="Interactable">true</bool>
+						<int name="LayoutOrder">0</int>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>0</XO>
+							<YS>0</YS>
+							<YO>0</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<UDim2 name="Size">
+							<XS>1</XS>
+							<XO>0</XO>
+							<YS>0.0776585042</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+						<bool name="AutoLocalize">true</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Title</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+					<Item class="TextLabel" referent="RBX0E5A9DC9BB4A434C87D66F507C0E8AB7">
+						<Properties>
+							<Font name="FontFace">
+								<Family><url>rbxassetid://16658221428</url></Family>
+								<Weight>700</Weight>
+								<Style>Normal</Style>
+							</Font>
+							<float name="LineHeight">1</float>
+							<string name="LocalizationMatchIdentifier"></string>
+							<string name="LocalizationMatchedSourceText"></string>
+							<int name="MaxVisibleGraphemes">-1</int>
+							<string name="OpenTypeFeatures"></string>
+							<bool name="RichText">true</bool>
+							<string name="Text">&lt;font family=&quot;rbxasset://LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json&quot;&gt;studio&lt;/font&gt; Builder Icon Set</string>
+							<Color3 name="TextColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<token name="TextDirection">0</token>
+							<bool name="TextScaled">true</bool>
+							<float name="TextSize">14</float>
+							<Color3 name="TextStrokeColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="TextStrokeTransparency">1</float>
+							<float name="TextTransparency">0</float>
+							<token name="TextTruncate">0</token>
+							<bool name="TextWrapped">true</bool>
+							<token name="TextXAlignment">2</token>
+							<token name="TextYAlignment">1</token>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0.5</X>
+								<Y>0.5</Y>
+							</Vector2>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">0</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<bool name="Interactable">true</bool>
+							<int name="LayoutOrder">0</int>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0.5</XS>
+								<XO>0</XO>
+								<YS>0.5</YS>
+								<YO>0</YO>
+							</UDim2>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>0.850000024</XS>
+								<XO>0</XO>
+								<YS>0.649999976</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+							<bool name="AutoLocalize">true</bool>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">TextLabel</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="UIListLayout" referent="RBX93C7152A739F4C038669B4F3B822FA9E">
+					<Properties>
+						<token name="HorizontalFlex">0</token>
+						<token name="ItemLineAlignment">0</token>
+						<UDim name="Padding">
+							<S>0.0250000004</S>
+							<O>0</O>
+						</UDim>
+						<token name="VerticalFlex">0</token>
+						<bool name="Wraps">false</bool>
+						<token name="FillDirection">1</token>
+						<token name="HorizontalAlignment">0</token>
+						<token name="SortOrder">2</token>
+						<token name="VerticalAlignment">1</token>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">UIListLayout</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="TextBox" referent="RBX267E4CACEB7F41BEB9286849B4CD2079">
+					<Properties>
+						<bool name="ClearTextOnFocus">true</bool>
+						<Font name="FontFace">
+							<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
+							<Weight>400</Weight>
+							<Style>Normal</Style>
+							<CachedFaceId><url>rbxasset://fonts/SourceSansPro-Regular.ttf</url></CachedFaceId>
+						</Font>
+						<float name="LineHeight">1</float>
+						<string name="LocalizationMatchIdentifier"></string>
+						<string name="LocalizationMatchedSourceText"></string>
+						<int name="MaxVisibleGraphemes">-1</int>
+						<bool name="MultiLine">false</bool>
+						<string name="OpenTypeFeatures"></string>
+						<Color3 name="PlaceholderColor3">
+							<R>0.699999988</R>
+							<G>0.699999988</G>
+							<B>0.699999988</B>
+						</Color3>
+						<string name="PlaceholderText">Type here to search</string>
+						<bool name="RichText">true</bool>
+						<bool name="ShowNativeInput">true</bool>
+						<string name="Text"></string>
+						<Color3 name="TextColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="TextDirection">0</token>
+						<bool name="TextEditable">true</bool>
+						<bool name="TextScaled">true</bool>
+						<float name="TextSize">14</float>
+						<Color3 name="TextStrokeColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<token name="TextTruncate">0</token>
+						<bool name="TextWrapped">true</bool>
+						<token name="TextXAlignment">2</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Active">true</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">0</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<bool name="Interactable">true</bool>
+						<int name="LayoutOrder">0</int>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.225199252</XS>
+							<XO>0</XO>
+							<YS>0.102658495</YS>
+							<YO>0</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">true</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<UDim2 name="Size">
+							<XS>0.920582533</XS>
+							<XO>0</XO>
+							<YS>0.0439922959</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+						<bool name="AutoLocalize">true</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">SearchBar</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ScrollingFrame" referent="RBXCB3F4B3C634E42E6AFCF30C59576C3A1">
+					<Properties>
+						<token name="AutomaticCanvasSize">2</token>
+						<Content name="BottomImage"><url>rbxasset://textures/ui/Scroll/scroll-bottom.png</url></Content>
+						<Vector2 name="CanvasPosition">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<UDim2 name="CanvasSize">
+							<XS>0</XS>
+							<XO>0</XO>
+							<YS>0</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="ElasticBehavior">0</token>
+						<token name="HorizontalScrollBarInset">0</token>
+						<Content name="MidImage"><url>rbxasset://textures/ui/Scroll/scroll-middle.png</url></Content>
+						<Color3 name="ScrollBarImageColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="ScrollBarImageTransparency">0</float>
+						<int name="ScrollBarThickness">12</int>
+						<token name="ScrollingDirection">4</token>
+						<bool name="ScrollingEnabled">true</bool>
+						<Content name="TopImage"><url>rbxasset://textures/ui/Scroll/scroll-top.png</url></Content>
+						<token name="VerticalScrollBarInset">1</token>
+						<token name="VerticalScrollBarPosition">0</token>
+						<bool name="Active">true</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>0.180392161</R>
+							<G>0.188235313</G>
+							<B>0.207843155</B>
+						</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">0</int>
+						<bool name="ClipsDescendants">true</bool>
+						<bool name="Draggable">false</bool>
+						<bool name="Interactable">true</bool>
+						<int name="LayoutOrder">0</int>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.064509578</XS>
+							<XO>0</XO>
+							<YS>0.13977696</YS>
+							<YO>0</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">true</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<UDim2 name="Size">
+							<XS>0.870980859</XS>
+							<XO>0</XO>
+							<YS>0.678943157</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+						<bool name="AutoLocalize">true</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">true</bool>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">IconList</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+					<Item class="UIListLayout" referent="RBX386DC63F48F84501B5FBED74A6397EFA">
+						<Properties>
+							<token name="HorizontalFlex">0</token>
+							<token name="ItemLineAlignment">0</token>
+							<UDim name="Padding">
+								<S>0</S>
+								<O>0</O>
+							</UDim>
+							<token name="VerticalFlex">0</token>
+							<bool name="Wraps">false</bool>
+							<token name="FillDirection">1</token>
+							<token name="HorizontalAlignment">1</token>
+							<token name="SortOrder">2</token>
+							<token name="VerticalAlignment">1</token>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">UIListLayout</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+					<Item class="Frame" referent="RBXF978A3AE034542B39910E61950B58BC2">
+						<Properties>
+							<token name="Style">0</token>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>0.31764707</R>
+								<G>0.31764707</G>
+								<B>0.31764707</B>
+							</Color3>
+							<float name="BackgroundTransparency">0.5</float>
+							<Color3 name="BorderColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">0</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<bool name="Interactable">true</bool>
+							<int name="LayoutOrder">0</int>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0</YS>
+								<YO>0</YO>
+							</UDim2>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>0.196991771</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<bool name="Visible">false</bool>
+							<int name="ZIndex">1</int>
+							<bool name="AutoLocalize">true</bool>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<string name="Name">IconTemp</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+						<Item class="TextLabel" referent="RBXADB427C45F61419383F8566402D2DF8D">
+							<Properties>
+								<Font name="FontFace">
+									<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
+									<Weight>400</Weight>
+									<Style>Normal</Style>
+									<CachedFaceId><url>rbxasset://fonts/SourceSansPro-Regular.ttf</url></CachedFaceId>
+								</Font>
+								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
+								<int name="MaxVisibleGraphemes">-1</int>
+								<string name="OpenTypeFeatures"></string>
+								<bool name="RichText">true</bool>
+								<string name="Text">&lt;font family=&quot;rbxasset://LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json&quot;&gt;studio&lt;/font&gt;</string>
+								<Color3 name="TextColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<token name="TextDirection">0</token>
+								<bool name="TextScaled">true</bool>
+								<float name="TextSize">14</float>
+								<Color3 name="TextStrokeColor3">
+									<R>0</R>
+									<G>0</G>
+									<B>0</B>
+								</Color3>
+								<float name="TextStrokeTransparency">1</float>
+								<float name="TextTransparency">0</float>
+								<token name="TextTruncate">0</token>
+								<bool name="TextWrapped">true</bool>
+								<token name="TextXAlignment">2</token>
+								<token name="TextYAlignment">1</token>
+								<bool name="Active">false</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0</R>
+									<G>0</G>
+									<B>0</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">0</int>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="Draggable">false</bool>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0.0378608666</XS>
+									<XO>0</XO>
+									<YS>0.178900063</YS>
+									<YO>0</YO>
+								</UDim2>
+								<float name="Rotation">0</float>
+								<bool name="Selectable">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0.135152787</XS>
+									<XO>0</XO>
+									<YS>0.639831305</YS>
+									<YO>0</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+								<bool name="AutoLocalize">true</bool>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<string name="Name">Icon</string>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+							</Properties>
+						</Item>
+						<Item class="TextLabel" referent="RBX27BA24D259954F5AB954C8067A2D482A">
+							<Properties>
+								<Font name="FontFace">
+									<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
+									<Weight>400</Weight>
+									<Style>Normal</Style>
+									<CachedFaceId><url>rbxasset://fonts/SourceSansPro-Regular.ttf</url></CachedFaceId>
+								</Font>
+								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
+								<int name="MaxVisibleGraphemes">-1</int>
+								<string name="OpenTypeFeatures"></string>
+								<bool name="RichText">true</bool>
+								<string name="Text">studio</string>
+								<Color3 name="TextColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<token name="TextDirection">0</token>
+								<bool name="TextScaled">true</bool>
+								<float name="TextSize">14</float>
+								<Color3 name="TextStrokeColor3">
+									<R>0</R>
+									<G>0</G>
+									<B>0</B>
+								</Color3>
+								<float name="TextStrokeTransparency">1</float>
+								<float name="TextTransparency">0</float>
+								<token name="TextTruncate">0</token>
+								<bool name="TextWrapped">true</bool>
+								<token name="TextXAlignment">0</token>
+								<token name="TextYAlignment">1</token>
+								<bool name="Active">false</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<float name="BackgroundTransparency">1</float>
+								<Color3 name="BorderColor3">
+									<R>0</R>
+									<G>0</G>
+									<B>0</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">0</int>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="Draggable">false</bool>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0.214544907</XS>
+									<XO>0</XO>
+									<YS>0.178900048</YS>
+									<YO>0</YO>
+								</UDim2>
+								<float name="Rotation">0</float>
+								<bool name="Selectable">false</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0.750391901</XS>
+									<XO>0</XO>
+									<YS>0.292399257</YS>
+									<YO>0</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+								<bool name="AutoLocalize">true</bool>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<string name="Name">IconName</string>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+							</Properties>
+						</Item>
+						<Item class="TextBox" referent="RBXB54C75DE429344279DCDB28735161DF0">
+							<Properties>
+								<bool name="ClearTextOnFocus">true</bool>
+								<Font name="FontFace">
+									<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
+									<Weight>400</Weight>
+									<Style>Normal</Style>
+									<CachedFaceId><url>rbxasset://fonts/SourceSansPro-Regular.ttf</url></CachedFaceId>
+								</Font>
+								<float name="LineHeight">1</float>
+								<string name="LocalizationMatchIdentifier"></string>
+								<string name="LocalizationMatchedSourceText"></string>
+								<int name="MaxVisibleGraphemes">-1</int>
+								<bool name="MultiLine">false</bool>
+								<string name="OpenTypeFeatures"></string>
+								<Color3 name="PlaceholderColor3">
+									<R>0.699999988</R>
+									<G>0.699999988</G>
+									<B>0.699999988</B>
+								</Color3>
+								<string name="PlaceholderText"></string>
+								<bool name="RichText">true</bool>
+								<bool name="ShowNativeInput">true</bool>
+								<string name="Text">&lt;font family=&quot;rbxasset://LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json&quot;&gt;studio&lt;/font&gt;</string>
+								<Color3 name="TextColor3">
+									<R>0</R>
+									<G>0</G>
+									<B>0</B>
+								</Color3>
+								<token name="TextDirection">0</token>
+								<bool name="TextEditable">true</bool>
+								<bool name="TextScaled">true</bool>
+								<float name="TextSize">14</float>
+								<Color3 name="TextStrokeColor3">
+									<R>0</R>
+									<G>0</G>
+									<B>0</B>
+								</Color3>
+								<float name="TextStrokeTransparency">1</float>
+								<float name="TextTransparency">0</float>
+								<token name="TextTruncate">0</token>
+								<bool name="TextWrapped">true</bool>
+								<token name="TextXAlignment">2</token>
+								<token name="TextYAlignment">1</token>
+								<bool name="Active">true</bool>
+								<Vector2 name="AnchorPoint">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<token name="AutomaticSize">0</token>
+								<Color3 name="BackgroundColor3">
+									<R>1</R>
+									<G>1</G>
+									<B>1</B>
+								</Color3>
+								<float name="BackgroundTransparency">0</float>
+								<Color3 name="BorderColor3">
+									<R>0</R>
+									<G>0</G>
+									<B>0</B>
+								</Color3>
+								<token name="BorderMode">0</token>
+								<int name="BorderSizePixel">0</int>
+								<bool name="ClipsDescendants">false</bool>
+								<bool name="Draggable">false</bool>
+								<bool name="Interactable">true</bool>
+								<int name="LayoutOrder">0</int>
+								<Ref name="NextSelectionDown">null</Ref>
+								<Ref name="NextSelectionLeft">null</Ref>
+								<Ref name="NextSelectionRight">null</Ref>
+								<Ref name="NextSelectionUp">null</Ref>
+								<UDim2 name="Position">
+									<XS>0.214544907</XS>
+									<XO>0</XO>
+									<YS>0.634440839</YS>
+									<YO>0</YO>
+								</UDim2>
+								<float name="Rotation">0</float>
+								<bool name="Selectable">true</bool>
+								<Ref name="SelectionImageObject">null</Ref>
+								<int name="SelectionOrder">0</int>
+								<UDim2 name="Size">
+									<XS>0.750391901</XS>
+									<XO>0</XO>
+									<YS>0.270497084</YS>
+									<YO>0</YO>
+								</UDim2>
+								<token name="SizeConstraint">0</token>
+								<bool name="Visible">true</bool>
+								<int name="ZIndex">1</int>
+								<bool name="AutoLocalize">true</bool>
+								<Ref name="RootLocalizationTable">null</Ref>
+								<token name="SelectionBehaviorDown">0</token>
+								<token name="SelectionBehaviorLeft">0</token>
+								<token name="SelectionBehaviorRight">0</token>
+								<token name="SelectionBehaviorUp">0</token>
+								<bool name="SelectionGroup">false</bool>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<string name="Name">CopyArea</string>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="TextLabel" referent="RBX76B5272200414087B2835DC6897A57F6">
+					<Properties>
+						<Font name="FontFace">
+							<Family><url>rbxassetid://16658221428</url></Family>
+							<Weight>400</Weight>
+							<Style>Normal</Style>
+						</Font>
+						<float name="LineHeight">1</float>
+						<string name="LocalizationMatchIdentifier"></string>
+						<string name="LocalizationMatchedSourceText"></string>
+						<int name="MaxVisibleGraphemes">-1</int>
+						<string name="OpenTypeFeatures"></string>
+						<bool name="RichText">true</bool>
+						<string name="Text">&lt;font family=&quot;rbxasset://LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json&quot;&gt;circle-i&lt;/font&gt; Copy the icon in it&apos;s respective text box and paste it in to a RichText enabled text object to insert it. For the icons to load, make sure you have HTTP requests enabled in your game!</string>
+						<Color3 name="TextColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<token name="TextDirection">0</token>
+						<bool name="TextScaled">true</bool>
+						<float name="TextSize">14</float>
+						<Color3 name="TextStrokeColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<token name="TextTruncate">0</token>
+						<bool name="TextWrapped">true</bool>
+						<token name="TextXAlignment">2</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0.5</X>
+							<Y>0.5</Y>
+						</Vector2>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">0</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<bool name="Interactable">true</bool>
+						<int name="LayoutOrder">0</int>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0.5</XS>
+							<XO>0</XO>
+							<YS>0.949182153</YS>
+							<YO>0</YO>
+						</UDim2>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<UDim2 name="Size">
+							<XS>0.850000143</XS>
+							<XO>0</XO>
+							<YS>0.108683228</YS>
+							<YO>0</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+						<bool name="AutoLocalize">true</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Info</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX8C20F371FFAC42C68A699D72D4DEDE49">
+			<Properties>
+				<ProtectedString name="Source"><![CDATA[local HttpService = game:GetService("HttpService")
+local iconUrl = "https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/refs/heads/roblox/LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/Icon.lua" -- Replace with your actual URL
+
+local iconTable = nil
+
+local function getAllIcons()
+	local success, response = pcall(HttpService.GetAsync, HttpService, iconUrl)
+
+	if success and response then
+		return response
+	else
+		warn("Failed to fetch content:", response)
+		return nil
+	end
+end
+
+local code = getAllIcons()
+
+if code then
+	local loaded = loadstring(code)
+	iconTable = loaded()
+else
+	warn("Couldn't fetch Roblox's icons. Are HTTP requests enabled for this game?")
+end
+
+local iconSet: {[string]: string} = require(script.Parent.IconSet)
+local interface = script.Parent.Interface
+
+local iconFormat = `<font family="rbxasset://LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json">%s</font>`
+
+local toolbar = plugin:CreateToolbar("Indigo's Plugins")
+local iconButton = toolbar:CreateButton(
+	"toggle-ui",
+	"Toggles the UI. It will appear in the bottom left of your screen.",
+	"rbxassetid://119610312021517",
+	"Builder Icons"
+)
+
+local excludeList = require(script.Exclude)
+
+interface.Parent = game.CoreGui
+interface.Enabled = false
+
+local uiVisible = false
+
+iconButton.Click:Connect(function()
+	uiVisible = not uiVisible
+	iconButton:SetActive(uiVisible)
+	
+	interface.Enabled = uiVisible
+end)
+
+for name, iconString in iconTable do
+	if table.find(excludeList, name) then
+		continue
+	end
+	
+	local richTextTag = string.format(iconFormat, iconString)
+	
+	local newTemp = interface.Container.IconList.IconTemp:Clone()
+	newTemp.Parent = interface.Container.IconList
+	newTemp.Name = name
+	
+	newTemp.Icon.Text = richTextTag
+	newTemp.CopyArea.Text = richTextTag
+	newTemp.CopyArea.TextEditable = false
+	newTemp.CopyArea.ClearTextOnFocus = false
+	
+	newTemp.IconName.Text = name
+	
+	newTemp.Visible = true
+end
+
+function search(query: string)
+	local lowercaseQuery = string.lower(query)
+	
+	for i, v in pairs(interface.Container.IconList:GetChildren()) do
+		if v:IsA("Frame") and v.Name ~= "IconTemp" then
+			if query ~= "" then
+				local iconName = string.lower(v.Name)
+				if string.find(iconName, lowercaseQuery) then
+					v.Visible = true
+				else
+					v.Visible = false
+				end
+			else
+				v.Visible = true
+			end
+		end
+	end
+end
+
+interface.Container.SearchBar:GetPropertyChangedSignal("Text"):Connect(function()
+	search(interface.Container.SearchBar.Text)
+end)]]></ProtectedString>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<token name="RunContext">3</token>
+				<string name="ScriptGuid">{6D2A2E57-AC12-4E27-B39A-1905344FAC31}</string>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Plugin</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="ModuleScript" referent="RBX6305C59788634DA9A3F880DB526E1596">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<ProtectedString name="Source"><![CDATA[return {
+	"0",
+	"1",
+	"2",
+	"3",
+	"4",
+	"5",
+	"6",
+	"7",
+	"8",
+	"9",
+	"a",
+	"b",
+	"c",
+	"d",
+	"e",
+	"f",
+	"g",
+	"h",
+	"i",
+	"j",
+	"k",
+	"l",
+	"m",
+	"n",
+	"o",
+	"p",
+	"q",
+	"r",
+	"s",
+	"t",
+	"u",
+	"v",
+	"w",
+	"x",
+	"y",
+	"z",
+	"_",
+	"-",
+}]]></ProtectedString>
+					<string name="ScriptGuid">{27B166CC-2249-4DD8-BB28-AF3569280D32}</string>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<string name="Name">Exclude</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+</roblox>
